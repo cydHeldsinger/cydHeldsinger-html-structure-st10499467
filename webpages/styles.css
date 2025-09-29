@@ -1,0 +1,160 @@
+/* 1. Styling for the Navigation Bar Container (the <nav> element) */
+.navbar {
+    background-color: #657e5d; /* A nice slight green color (you can change the hex code) */
+    padding: 10px; /* Space inside the nav bar */
+    margin: 0; /* Remove default outer margin */
+    border-bottom: 2px solid #7F8B7B; /* Optional: A slightly darker border for definition */
+
+    /* **CRITICAL FOR HORIZONTAL LAYOUT** */
+    display: flex; /* Enables Flexbox layout for direct children (the <ul>) */
+    justify-content: flex-start; /* Aligns items to the start of the nav bar */
+    /* If you wanted the links centered, you would use: justify-content: center; */
+}
+
+/* 2. Styling for the Unordered List (the main list of links) */
+.navlinks {
+    list-style: none; /* Removes the bullet points */
+    padding: 0; /* Removes default inner padding */
+    margin: 0; /* Removes default outer margin */
+
+    /* **CRITICAL FOR HORIZONTAL LAYOUT** */
+    display: flex; /* Enables Flexbox layout for direct children (the <li> items) */
+    gap: 20px; /* Optional: Adds space between the list items */
+    /* Alternatively, you can use: margin-right: 15px; on the <li> items (see below) */
+}
+
+/* 3. Styling for the List Items (each individual link container <li>) */
+.navlinks li {
+    /* If you didn't use 'gap' above, use this for spacing: */
+    /* margin-right: 20px; */
+}
+
+/* 4. Styling for the Actual Links (<a> element) */
+.navlinks a {
+    display: block; /* Makes the entire link clickable */
+    text-decoration: none; /* Removes the underline from the links */
+    color: #1a2b18; /* Sets the text color (e.g., a dark gray) */
+    padding: 5px 10px; /* Adds space around the text */
+    transition: background-color 0.3s ease; /* Optional: Smooth transition for hover effect */
+}
+
+/* 5. Hover effect (what happens when the mouse is over a link) */
+.navlinks a:hover {
+    background-color: #6a7e64; /* A slightly darker green on hover */
+    color: #FFFFFF; /* Change text color to white on hover for contrast */
+}
+
+
+
+
+
+
+
+/* Styling for the main skincare image */
+#main-skin-care-image {
+    /* To round the corners of the image */
+    border-radius: 350px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+
+/* Styling for the main skincare image */
+#about-us-main-image { 
+    /* To round the corners of the image */
+    border-radius: 80px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    width: 1000;
+    height: 500;
+}
+
+
+
+/* Styling for the main skincare image */
+#enquire-image { 
+    /* To round the corners of the image */
+    border-radius: 80px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+/* Styling for the main skincare image */
+#picture-one { 
+    /* To round the corners of the image */
+    border-radius: 80px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+
+/* Styling for the main skincare image */
+#picture-two { 
+    /* To round the corners of the image */
+    border-radius: 80px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+
+/* Styling for the main skincare image */
+#picture-three { 
+    /* To round the corners of the image */
+    border-radius: 80px; /* Adjust the pixel value for more or less rounding */
+
+    /* To center the image (it needs to be treated as a block element) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Optional: Set a maximum width so it scales nicely on different screen sizes */
+    max-width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+
+
+  /* In styles.css */
+
+/* Target the entire body of the document */
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {background-color:rgb(156, 175, 154);}
+
