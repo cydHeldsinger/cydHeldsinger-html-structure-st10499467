@@ -15,3 +15,13 @@ The overall visual theme was unified with global styling changes:
  * Main Background Color: A main background color of [Specific Color] was added to the entire webpage body.
  * Font Changes: All text fonts on the webpage were updated to a new, [Specific Font Family, e.g., Sans-serif, custom font] for improved readability and style.
  * Typography Coloring: The coloring of various text elements (headings, paragraphs, links) was updated in certain areas to ensure proper contrast and visual hierarchy.
+
+part3
+
+1) fixed broken image paths
+2) rebuilt all html files based on the feedback
+3) changed the font in order to make it more legible
+4) redesigned some page layouts
+5) updated the css based on the html changes
+6) Added JavaScript Enhancements
+7) 
