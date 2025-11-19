@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Products — HELDSKIN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">HELDSKIN</a>
+      <button id="nav-toggle-3" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav-3" class="site-nav">
+        <ul class="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="service.html" class="active">Products</a></li>
+          <li><a href="enquire.html">Enquire</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container products-page">
+    <h1>Products & Services</h1>
+    <p class="lead">Our product list is loaded dynamically so it's easy to update.</p>
+
+    <div class="controls">
+      <label>
+        Search:
+        <input id="search-input" type="search" placeholder="Search products..." />
+      </label>
+      <label>
+        Max price:
+        <select id="price-filter">
+          <option value="">Any</option>
+          <option value="150">R150</option>
+          <option value="200">R200</option>
+          <option value="9999">Above R250</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="products-grid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">© 2025 HELDSKIN</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
